@@ -1,0 +1,190 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background-color: #c3da95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header img {
+    /* border: 3px solid olivedrab;
+    border-radius: 10px;
+    background-color: floralwhite; */
+    width: 80px;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 300px;
+}
+
+header p {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(78, 105, 23);
+}
+
+.main {
+    background-color: #644835;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.main_side {
+    position: absolute;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+.main_side p {
+    color: rgb(195, 218, 149);
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.main h1 {
+    display: inline;
+    position: absolute;
+    top: 11%;
+    left: 40%;
+    text-transform: uppercase;
+    color: #c3da95;
+    font-size: 60px;
+}
+
+.CTA_btns {
+    text-align: center;
+}
+
+#donate_btn, #sign_btn {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
+    border: 5px solid #7fa72f;
+    border-radius: 10px;
+    background-color: olivedrab;
+    margin-bottom: 15px;
+    color: #c3da95;
+    cursor: pointer;
+}
+
+#donate_btn:hover, #sign_btn:hover {
+    border: 5px solid #95c040;
+    border-radius: 10px;
+    background-color: rgb(125, 163, 49);
+    margin-bottom: 15px;
+    color: #e9f8cb;
+    transition: 0.3s;
+}
+
+#donate_btn {
+    margin-right: 50px;
+}
+
+.more_info_container {
+    text-align: center;
+}
+
+#more_info_btn {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    align-self: center;
+    padding: 5px;
+    width: 120px;
+    border: 5px solid #def5b0;
+    border-radius: 10px;
+    background-color: #c3da95;
+    margin-bottom: 10px;
+    color: #3f2310;
+    cursor: pointer;
+}
+
+#more_info_btn:hover {
+    border: 5px solid #b4ca88;
+    border-radius: 10px;
+    background-color: #a3bb74;
+    margin-bottom: 10px;
+    color: #57331a;
+    transition: 0.3s;
+}
+
+.email_sub h6 {
+    font-size: 16px;
+    line-height: 16px;
+    color: rgb(195, 218, 149);
+    margin: 15px 0 15px 0;
+}
+
+input#yourname, input#email {
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: honeydew;
+    border: 5px solid rgb(209, 228, 209);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input#email {
+    width: 170px;
+}
+
+
+form input#submit {
+    padding: 10px;
+    background-color: olivedrab;
+    border: 5px solid #7fa72f;
+    border-radius: 20px 0 20px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #e9f8cb;
+    
+}
+
+form input#submit:hover {
+    background-color: rgb(124, 163, 46);
+    border: 5px solid #93be3b;
+    transition: 0.3s;
+}
+
+footer {
+    width: 100%;
+    height: 135px;
+    bottom: 0;
+    text-align: center;
+    background-color: #644835;
+}
+
+footer i {
+    transform: scale(250%);
+    margin: 0 80px 0 80px;
+    position: relative;
+    top: 40%;
+    color: #c3da95;
+}
+
+footer i:hover {
+    color: honeydew;
+    transition: 0.3s;
+}
+
